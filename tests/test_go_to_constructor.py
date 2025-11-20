@@ -13,7 +13,10 @@ class TestGoToConstructorByButton:
         driver.find_element(*Locators.ENT_PASS).send_keys(Credentials.password)
 
         driver.find_element(*Locators.ENTER_BUTTON).click()
+<<<<<<< HEAD
+=======
         #WebDriverWait(driver, 5).until(EC.visibility_of_element_located((Locators.ORDER_BUTTON)))
+>>>>>>> 1508318b48aaa2abe7f79a16f44b41e76e868bd5
         driver.find_element(*Locators.KABINET_BUTTON).click()
 
         driver.find_element(*Locators.CONSTRUCT_BUT).click()
@@ -30,7 +33,10 @@ class TestGoToConstructorByLogon:
         driver.find_element(*Locators.ENT_PASS).send_keys(Credentials.password)
 
         driver.find_element(*Locators.ENTER_BUTTON).click()
+<<<<<<< HEAD
+=======
         #WebDriverWait(driver, 5).until(EC.visibility_of_element_located((Locators.ORDER_BUTTON)))
+>>>>>>> 1508318b48aaa2abe7f79a16f44b41e76e868bd5
         driver.find_element(*Locators.KABINET_BUTTON).click()
 
         driver.find_element(*Locators.LOGO).click()

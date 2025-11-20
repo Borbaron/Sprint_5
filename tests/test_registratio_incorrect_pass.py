@@ -17,5 +17,9 @@ class TestRegistrationWrongPass:
 
         driver.find_element(*Locators.REG_BUTTON).click()
 
+<<<<<<< HEAD
+        error_element = WebDriverWait(driver, 5).until(EC.visibility_of_element_located((Locators.INCORRECT_PASS)))
+=======
         error_element = WebDriverWait(driver, 5).until(EC.visibility_of_element_located((Locators.ENTER_TEXT)))
+>>>>>>> 1508318b48aaa2abe7f79a16f44b41e76e868bd5
         assert error_element.is_displayed()
